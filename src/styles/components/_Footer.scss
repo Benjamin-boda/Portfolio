@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 110rem;
+}
+
+.footer__a {
+    text-decoration: none;
+}
+
+.footer__image {
+    height: auto;
+    margin: 0 0 0 $m-size;
+    width: 4rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: $l-size 0 0 $m-size;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: 0 0 0 $m-size;
+    }
+}
+
+.footer__image:hover {
+    filter: invert(61%) sepia(50%) saturate(466%) hue-rotate(24deg) brightness(131%) contrast(110%);
+}
+

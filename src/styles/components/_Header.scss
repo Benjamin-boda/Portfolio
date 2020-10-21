@@ -1,0 +1,55 @@
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: $m-size $s-size;
+    max-width: 110rem;
+    padding: 0 $s-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: $l-size $s-size;
+    }
+
+    @media (min-width: $desktop-breakpoint-large) {
+        margin: $l-size auto 0 auto;
+        padding: 0;
+    }
+}
+
+.header__title {
+    color: snow;
+    font-family: "OpenSansLight";
+    font-size: $font-size-xsmall;
+    font-style: oblique;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-small;
+    }
+}
+
+.header__button {
+    background: transparent;
+    border: none;
+    color: snow;
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xsmall;
+    margin: 0 $s-size 0 0;
+    text-decoration: none;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $l-size 0 0;
+    }
+}
+
+.header__a {
+    color: snow;
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xsmall;
+    margin: 0;
+    text-decoration: none;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $l-size 0 0;
+    }
+}

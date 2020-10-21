@@ -1,0 +1,23 @@
+.project__animation {
+    animation: play steps(24) reverse;
+    animation-duration: .8s;
+    background: url("../../images/ink.png")  no-repeat 0 0;
+    background-size: 2500% 100%;
+    filter: brightness(15%);
+    height: 100vh;
+    left: 0%;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    width: 100%; 
+    z-index: 10;
+}
+
+@keyframes play {
+    0% {
+        background-position:0;
+    }
+    100% {
+        background-position:100%;
+    }
+  }

@@ -1,0 +1,42 @@
+.button__navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.button__up__down {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+.button__image__up {
+  transform: rotate(180deg);
+  transition: transform .2s;
+  width: 3rem;
+}
+
+.button__image__up:hover {
+  filter: invert(69%) sepia(73%) saturate(435%) hue-rotate(174deg) brightness(105%) contrast(99%);
+  transform: rotate(180deg) scale(0.8);
+}
+
+.button__image__down {
+  margin: 2rem 0 0 0;
+  transition: transform .2s;
+  width: 3rem;
+}
+
+.button__image__down:hover {
+  filter: invert(69%) sepia(73%) saturate(435%) hue-rotate(174deg) brightness(105%) contrast(99%);
+  transform: scale(0.8);
+}
+
+.button__back {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.button__back:hover {
+  transform: scale(0.8);
+}
