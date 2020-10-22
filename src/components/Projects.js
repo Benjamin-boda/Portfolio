@@ -94,7 +94,7 @@ export const Projects = ({numberProject, setNumberProject}) => {
                     
                 {projects.map((project) => 
                     numberProject === project.number ? 
-                        <a className="projects__text" href={project.url} target="_blank" key={project.number}>
+                        <a className="projects__text" href={numberProject === 1 ? undefined : project.url} target="_blank" key={project.number}>
                             {startAnimation && <ProjectAnimation/>}
                             <p className="projects__text__description">{project.description}</p>
                             <h2 className="projects__text__title">{project.title}</h2>
