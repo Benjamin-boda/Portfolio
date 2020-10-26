@@ -52,6 +52,10 @@
     }
 }
 
+.list__projects__text__presentation {
+    display: none;
+}
+
 .list__projects__text:hover {
     color: $blue-hover;
 }

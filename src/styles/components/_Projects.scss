@@ -45,6 +45,15 @@
     }
 }
 
+.projects__text__title__presentation {
+    font-family: "OpenSansExtraBold";
+    font-size: $font-size-small;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-medium;
+    }
+}
+
 .projects__text__description {
     font-family: "OpenSansLight";
     font-size: $font-size-small;

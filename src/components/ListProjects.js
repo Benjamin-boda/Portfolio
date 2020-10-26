@@ -19,7 +19,7 @@ export const ListProjects = ({listIsOpen, setListIsOpen, setNumberProject}) => {
                             setListIsOpen(!listIsOpen)}
                         } 
                         key={project.number}
-                        className="list__projects__text"
+                        className={project.number === 1 ? "list__projects__text__presentation" : "list__projects__text"}
                         to={
                             {
                                 pathname :"/"

@@ -1,6 +1,6 @@
 export const projects = [
     {
-        title: "I'm a french developer in Paris",
+        title: "I'm a french developer, currently working at Paris",
         description: "Hello everyone",
         technology : "",
         url: "",

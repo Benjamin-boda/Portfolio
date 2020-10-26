@@ -97,7 +97,7 @@ export const Projects = ({numberProject, setNumberProject}) => {
                         <a className="projects__text" href={numberProject === 1 ? undefined : project.url} target="_blank" key={project.number}>
                             {startAnimation && <ProjectAnimation/>}
                             <p className="projects__text__description">{project.description}</p>
-                            <h2 className="projects__text__title">{project.title}</h2>
+                            <h2 className={numberProject === 1 ? "projects__text__title__presentation" : "projects__text__title"}>{project.title}</h2>
                             <p className="projects__text__techno">{project.technology}</p>
                             <img className="projects__image" src={project.image} />
                         </a> : undefined
