@@ -26,7 +26,7 @@ export const projects = [
     {
         title: "Game Manager",
         description: "Manage to finish your games",
-        technology : "HTML, CSS, React",
+        technology : "HTML, CSS, React, Redux, Router, Firebase",
         url: "https://game-manager-boda.herokuapp.com/",
         image: require("../images/Game Manager-1.jpg"),
         number: 4
@@ -34,7 +34,7 @@ export const projects = [
     {
         title: "Expensify",
         description: "Keep an eye on your budget",
-        technology : "HTML, CSS, React",
+        technology : "HTML, CSS, React, Redux, Router, Firebase",
         url: "https://expensify-boda.herokuapp.com/",
         image: require("../images/Expensify-1.png"),
         number: 5
@@ -42,7 +42,7 @@ export const projects = [
     {
         title: "Indecision App",
         description: "Let the app choose for you",
-        technology : "HTML, CSS, React",
+        technology : "HTML, CSS, React, Firebase",
         url: "https://indecision-app-b.herokuapp.com/",
         image: require("../images/Indecision App-1.png"),
         number: 6
