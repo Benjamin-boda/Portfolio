@@ -8,12 +8,20 @@ export const projects = [
         number: 1
     },
     {
+        title: "Shoes shop",
+        description: "Buy your shoes on our e-shop",
+        technology : "HTML, SCSS, React, Redux, Router, React testing library, Firebase",
+        url: "https://shoes-shop-b.herokuapp.com/",
+        image: require("../images/shoes.jpg"),
+        number: 2
+    },
+    {
         title: "Paleo Map",
         description: "Search your favorite dinosaurs on a map",
-        technology : "HTML, CSS, React, Jest, React simple map, Fetch API",
+        technology : "HTML, SCSS, React, Jest, React simple map, Fetch API",
         url: "https://paleo-map.herokuapp.com/",
         image: require("../images/paleo-map.jpg"),
-        number: 2
+        number: 3
     },
     {
         title: "Burger shop",
@@ -21,7 +29,7 @@ export const projects = [
         technology : "HTML, CSS",
         url: "https://american-food-website-template.herokuapp.com/",
         image: require("../images/Burger-1.png"),
-        number: 3
+        number: 4
     },
     {
         title: "Green Bike",
@@ -29,31 +37,31 @@ export const projects = [
         technology : "HTML, CSS",
         url: "https://green-bike-website-template.herokuapp.com/",
         image: require("../images/GreenBike-1.png"),
-        number: 4
+        number: 5
     },
     {
         title: "Game Manager",
         description: "Manage to finish your games",
-        technology : "HTML, CSS, React, Redux, Router, Firebase, Jest, Fetch API",
+        technology : "HTML, SCSS, React, Redux, Router, Firebase, Jest, Fetch API",
         url: "https://game-manager-boda.herokuapp.com/",
         image: require("../images/Game Manager-1.jpg"),
-        number: 5
+        number: 6
     },
     {
         title: "Expensify",
         description: "Keep an eye on your budget",
-        technology : "HTML, CSS, React, Redux, Router, Firebase, Jest",
+        technology : "HTML, SCSS, React, Redux, Router, Firebase, Jest",
         url: "https://expensify-boda.herokuapp.com/",
         image: require("../images/Expensify-1.png"),
-        number: 6
+        number: 7
     },
     {
         title: "Indecision App",
         description: "Let the app choose for you",
-        technology : "HTML, CSS, React, Firebase, Jest",
+        technology : "HTML, SCSS, React, Firebase, Jest",
         url: "https://indecision-app-b.herokuapp.com/",
         image: require("../images/Indecision App-1.png"),
-        number: 7
+        number: 8
     },
     {
         title: "First Touch with JS",
@@ -61,6 +69,6 @@ export const projects = [
         technology : "HTML, CSS, JS",
         url: "https://first-touch-js.herokuapp.com/",
         image: require("../images/SpaceShip-1.png"),
-        number: 8
+        number: 9
     }
 ]
