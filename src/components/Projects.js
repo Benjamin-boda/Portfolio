@@ -17,7 +17,7 @@ export const Projects = ({numberProject, setNumberProject}) => {
 
         const position = e.deltaY
 
-        if (numberProject < 7 && numberProject > 1) {
+        if (numberProject < 9 && numberProject > 1) {
             if ( position > 0 ) {
                 setIsScrolling(
                     setTimeout(() => {
@@ -31,7 +31,7 @@ export const Projects = ({numberProject, setNumberProject}) => {
                     }, 150)
                 )
             }    
-        } else if ( numberProject === 7 ) {
+        } else if ( numberProject === 9 ) {
             if ( position < 0 ) {
                 setIsScrolling(
                     setTimeout(() => {
@@ -59,7 +59,7 @@ export const Projects = ({numberProject, setNumberProject}) => {
     }
 
     const onClickDown = () => {
-        if (numberProject === 7) {
+        if (numberProject === 9) {
             setNumberProject(numberProject + 0)
         } else { 
             setNumberProject(numberProject + 1)
