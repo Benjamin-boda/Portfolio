@@ -62,11 +62,11 @@
 
 .list__projects__text__title {
     font-family: "OpenSansExtraBold";
-    font-size: $font-size-medium;
+    font-size: $font-size-xsmall;
     margin: $m-size 0 0 $s-size;
 
     @media (min-width: $desktop-breakpoint) {
-        font-size: $font-size-large;
+        font-size: $font-size-medium;
         margin: $l-size 0 0 $s-size;
     }
 
@@ -88,7 +88,7 @@
     }
 
     @media (min-width: $desktop-breakpoint-large) {
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }
 

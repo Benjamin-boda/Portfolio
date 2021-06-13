@@ -8,12 +8,20 @@ export const projects = [
         number: 1
     },
     {
+        title: "Twitter clone",
+        description: "Basic functionalities of twitter",
+        technology : "HTML, SCSS, React, Redux, Router, Express, Api endpoints, Axios, Mongodb",
+        url: "https://twitter-clone-boda.herokuapp.com/",
+        image: require("../images/twitterclone.jpg"),
+        number: 2
+    },
+    {
         title: "Shoes shop",
         description: "Buy your shoes on our e-shop",
         technology : "HTML, SCSS, React, Redux, Router, React testing library, Firebase",
         url: "https://shoes-shop-b.herokuapp.com/",
         image: require("../images/shoes.jpg"),
-        number: 2
+        number: 3
     },
     {
         title: "Paleo Map",
@@ -21,7 +29,7 @@ export const projects = [
         technology : "HTML, SCSS, React, Jest, React simple map, Fetch API",
         url: "https://paleo-map.herokuapp.com/",
         image: require("../images/paleo-map.jpg"),
-        number: 3
+        number: 4
     },
     {
         title: "Burger shop",
@@ -29,7 +37,7 @@ export const projects = [
         technology : "HTML, CSS",
         url: "https://american-food-website-template.herokuapp.com/",
         image: require("../images/Burger-1.png"),
-        number: 4
+        number: 5
     },
     {
         title: "Green Bike",
@@ -37,7 +45,7 @@ export const projects = [
         technology : "HTML, CSS",
         url: "https://green-bike-website-template.herokuapp.com/",
         image: require("../images/GreenBike-1.png"),
-        number: 5
+        number: 6
     },
     {
         title: "Game Manager",
@@ -45,7 +53,7 @@ export const projects = [
         technology : "HTML, SCSS, React, Redux, Router, Firebase, Jest, Fetch API",
         url: "https://game-manager-boda.herokuapp.com/",
         image: require("../images/Game Manager-1.jpg"),
-        number: 6
+        number: 7
     },
     {
         title: "Expensify",
@@ -53,7 +61,7 @@ export const projects = [
         technology : "HTML, SCSS, React, Redux, Router, Firebase, Jest",
         url: "https://expensify-boda.herokuapp.com/",
         image: require("../images/Expensify-1.png"),
-        number: 7
+        number: 8
     },
     {
         title: "Indecision App",
@@ -61,7 +69,7 @@ export const projects = [
         technology : "HTML, SCSS, React, Firebase, Jest",
         url: "https://indecision-app-b.herokuapp.com/",
         image: require("../images/Indecision App-1.png"),
-        number: 8
+        number: 9
     },
     {
         title: "First Touch with JS",
@@ -69,6 +77,6 @@ export const projects = [
         technology : "HTML, CSS, JS",
         url: "https://first-touch-js.herokuapp.com/",
         image: require("../images/SpaceShip-1.png"),
-        number: 9
+        number: 10
     }
 ]
